@@ -4,27 +4,28 @@
 This project analyzes clinical and demographic factors associated with heart disease using data from patients evaluated at the Cleveland Clinic Foundation. The goal is to identify meaningful relationships between medical indicators and heart disease outcomes through statistical testing and visual storytelling.
 
 ---
-## 🔍 Project Highlights
 
+## 🔍 Project Highlights
 - End-to-end statistical analysis using real clinical data (303 patients)
-- Applied hypothesis testing:
+- Applied hypothesis testing, including:
   - One-sample & independent t-tests
   - ANOVA with Bonferroni correction
   - Chi-square tests for categorical predictors
 - Clear, publication-style visualizations for medical interpretability
 - Focus on explainability rather than black-box prediction
-- Includes presentation slides and visual poster for non-technical audiences
+- Includes presentation slides and a visual poster for non-technical audiences
 
 ---
+
 ## 📊 Dataset
 The dataset was sourced from the UCI Machine Learning Repository and includes information such as:
-- Age and sex
-- Resting blood pressure
-- Serum cholesterol
-- Chest pain type
-- Exercise-induced angina
-- Fasting blood sugar
-- Maximum heart rate during exercise
+- Age and sex  
+- Resting blood pressure  
+- Serum cholesterol  
+- Chest pain type  
+- Exercise-induced angina  
+- Fasting blood sugar  
+- Maximum heart rate during exercise  
 - Heart disease diagnosis (presence / absence)
 
 ---
@@ -32,7 +33,7 @@ The dataset was sourced from the UCI Machine Learning Repository and includes in
 ## 🔬 Analysis Overview
 
 ### Part I – Cholesterol & Fasting Blood Sugar
-- One-sample t-tests were used to evaluate whether average cholesterol levels exceed clinical risk thresholds.
+- One-sample t-tests evaluated whether average cholesterol levels exceed clinical risk thresholds.
 - A binomial hypothesis test assessed whether the prevalence of high fasting blood sugar (>120 mg/dl) exceeded population-level estimates.
 
 ### Part II – Predictors of Heart Disease
@@ -51,25 +52,18 @@ The dataset was sourced from the UCI Machine Learning Repository and includes in
 
 ---
 
-## 🎨 Visualizations
-The analysis is supported by five high-impact visualizations:
-1. Maximum heart rate by heart disease status  
-2. Age by heart disease status  
-3. Maximum heart rate by chest pain type  
-4. Heart disease prevalence by chest pain type (%)  
-5. Heart disease prevalence by exercise-induced angina (%)  
-
-All plots were created using Matplotlib and Seaborn.
+## 📊 Sample Visualization
+![Heart Disease Prevalence by Chest Pain Type](images/plot_4_chest_pain_vs_heart_disease_percent.png)
 
 ---
 
 ## 🛠 Tools & Libraries
-- Python
-- Pandas
-- NumPy
-- SciPy
-- Matplotlib
-- Seaborn
+- Python  
+- Pandas  
+- NumPy  
+- SciPy  
+- Matplotlib  
+- Seaborn  
 - Jupyter Notebook (VS Code)
 
 ---
@@ -80,6 +74,8 @@ This project demonstrates how statistical hypothesis testing combined with effec
 ---
 
 ## 📌 Author
-Maria Kourkoulou  
+**Maria Kourkoulou**  
 Applied Data Science with Python – Codecademy Bootcamp
+
+
 
