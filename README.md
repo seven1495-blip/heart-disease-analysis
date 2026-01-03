@@ -4,7 +4,18 @@
 This project analyzes clinical and demographic factors associated with heart disease using data from patients evaluated at the Cleveland Clinic Foundation. The goal is to identify meaningful relationships between medical indicators and heart disease outcomes through statistical testing and visual storytelling.
 
 ---
+## 🔍 Project Highlights
 
+- End-to-end statistical analysis using real clinical data (303 patients)
+- Applied hypothesis testing:
+  - One-sample & independent t-tests
+  - ANOVA with Bonferroni correction
+  - Chi-square tests for categorical predictors
+- Clear, publication-style visualizations for medical interpretability
+- Focus on explainability rather than black-box prediction
+- Includes presentation slides and visual poster for non-technical audiences
+
+---
 ## 📊 Dataset
 The dataset was sourced from the UCI Machine Learning Repository and includes information such as:
 - Age and sex
@@ -71,3 +82,4 @@ This project demonstrates how statistical hypothesis testing combined with effec
 ## 📌 Author
 Maria Kourkoulou  
 Applied Data Science with Python – Codecademy Bootcamp
+
