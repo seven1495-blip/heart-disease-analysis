@@ -19,13 +19,13 @@ This project analyzes clinical and demographic factors associated with heart dis
 
 ## 📊 Dataset
 The dataset was sourced from the UCI Machine Learning Repository and includes information such as:
-- Age and sex  
-- Resting blood pressure  
-- Serum cholesterol  
-- Chest pain type  
-- Exercise-induced angina  
-- Fasting blood sugar  
-- Maximum heart rate during exercise  
+- Age and sex
+- Resting blood pressure
+- Serum cholesterol
+- Chest pain type
+- Exercise-induced angina
+- Fasting blood sugar
+- Maximum heart rate during exercise
 - Heart disease diagnosis (presence / absence)
 
 ---
@@ -58,12 +58,12 @@ The dataset was sourced from the UCI Machine Learning Repository and includes in
 ---
 
 ## 🛠 Tools & Libraries
-- Python  
-- Pandas  
-- NumPy  
-- SciPy  
-- Matplotlib  
-- Seaborn  
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Matplotlib
+- Seaborn
 - Jupyter Notebook (VS Code)
 
 ---
@@ -76,6 +76,7 @@ This project demonstrates how statistical hypothesis testing combined with effec
 ## 📌 Author
 **Maria Kourkoulou**  
 Applied Data Science with Python – Codecademy Bootcamp
+
 
 
 
